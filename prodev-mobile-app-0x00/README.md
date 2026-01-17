@@ -1,109 +1,50 @@
-# Expo Router – First Mobile App Setup
+# Welcome to your Expo app 👋
 
-## Repository Information
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-* **Repository:** prodev-mobile-setup
-* **Directory:** prodev-mobile-app-0x00
+## Get started
 
----
+1. Install dependencies
 
-## Objective
+   ```bash
+   npm install
+   ```
 
-Set up a first mobile application using the **Expo Router template**, understand the project structure, and document the scaffolding and reset process.
+2. Start the app
 
----
+   ```bash
+   npx expo start
+   ```
 
-## Scaffolding Steps
+In the output, you'll find options to open the app in a
 
-### 1. Navigate to Project Directory
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-```bash
-cd prodev-mobile-setup
-```
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-### 2. Create a New Expo App (Expo Router)
+## Get a fresh project
 
-```bash
-npx create-expo-app@latest .
-```
-
-* Selected the **Expo Router** template when prompted
-* Dependencies were installed automatically
-* Project structure was generated successfully
-
----
-
-## Modifying the Home Screen
-
-### File Edited
-
-```
-app/(tabs)/index.tsx
-```
-
-### Change Made
-
-* Located the default text:
-
-  ```tsx
-  Welcome!
-  ```
-* Updated it to:
-
-  ```tsx
-  First App Created
-  ```
-
-This confirmed that the app UI updates correctly when files are modified.
-
----
-
-## Running and Testing the Application
-
-### Start Development Server
-
-```bash
-npx expo start
-```
-
-### Testing on Physical Devices
-
-* **Android:** Scanned QR code using **Expo Go**
-* **iOS:** Scanned QR code using the **Camera app**
-
-✅ Application loaded successfully and displayed **First App Created** on the home screen.
-
----
-
-## Resetting the Application
-
-### Command Used
+When you're ready, run:
 
 ```bash
 npm run reset-project
 ```
 
-### Observations
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-* Removed generated files and caches
-* Reset the project to its initial scaffolded state
-* Cleared custom changes made after setup
-* Useful for troubleshooting or restarting development with a clean state
+## Learn more
 
----
+To learn more about developing your project with Expo, look at the following resources:
 
-## Key Files and Folders Explained
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-* `app/` – Main routing and screens (Expo Router)
-* `app/(tabs)/index.tsx` – Home screen entry point
-* `constants/Colors.tsx` – Centralized color configuration
-* `app-example/` – Reference example provided by Expo
+## Join the community
 
----
+Join our community of developers creating universal apps.
 
-## Status
-
-✅ Expo Router project successfully scaffolded
-✅ Home screen modified
-✅ App tested on physical device
-✅ Reset command verified
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
